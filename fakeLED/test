@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+echo -n 1 > /dev/LED
+cat /dev/LED 
+echo -n 0 > /dev/LED
+cat /dev/LED 
+echo -n t > /dev/LED
+cat /dev/LED 
+echo -n t > /dev/LED
+cat /dev/LED 
+
